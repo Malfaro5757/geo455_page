@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript For Loop</h2>
+
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="test"></p>
+
+<script>
+    var num = "";
+    
+    for (var i = 0; i < 25; i++) { // change 51 to a different number
+        num += "The number is " + i + "<br>";
+    }
+    document.getElementById("demo").innerHTML = num;
+    
+    var num_brk = "";
+    
+    for (var z = 0; z < 10; z++) {
+        if(z===5) {break;}
+        num_brk += "The number is " + z + " lets loop again" + "<br>";
+    }
+    document.getElementById("demo1").innerHTML = num_brk;
+    
+    
+    const cars = ["Tesla", "Volvo", "BMW", "Ford", "Fiat", "Audi"];
+    
+    var carnames = "";
+    
+    for (var j = 0; j < cars.length; j++) {
+        carnames += cars[j] + "<br>";
+    }
+    document.getElementById("demo2").innerHTML = carnames;
+    
+    const sw = ["The Phantom Menace", "Attack of the Clones", "Revenge of the Sith", "Solo", "Rogue One", "A New Hope", "Empire Strikes Back", "Return of the Jedi"];
+    
+    var starwars ="";
+    
+    for (var s = 0; s < sw.length; s++) {
+        starwars += sw[s] + "<br>";
+    }
+    document.getElementById("test").innerHTML = starwars;
+
+</script>
+
+<p> Done</p>
+
+</body>
+</html>
