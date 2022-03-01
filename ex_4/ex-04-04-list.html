@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Populating list</title>
+    </head>
+    <body>
+        <p>Heere is a list of my favorite books and short stories, hope you check them out!</p>
+        
+        <ol id="books"></ol>
+        
+        
+        <p>It was created dynamically using JavaScript.</p>
+        <script>
+            var data = ["The Madman's Tale", "Fluke: Or I know why the winged whale sings", "Dagon", "The Call of Cathulu", "7 Brief Lessons on Physics","Touching Spirit Bear" ];
+            var html = "";
+            data.forEach(function(element) {
+                html += "<li><i>" + element + "</i></li>";
+            });
+            document.getElementById("books").innerHTML = html;
+        </script>
+    <p> Done</p>    
+    </body>
+</html>

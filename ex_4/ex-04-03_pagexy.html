@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event object</title>
+    </head>
+    <body>
+        <h3> Click anywhere on the page to get the page X and Y coordinates!</h3>
+        <h5> Note, the map coordinates are not the coordinates for the world image</h5>
+        <p id="position"></p>
+        <img id="world" src="images/istockphoto-936410448-612x612.jpg"><br>
+        <script>
+            var page_coord = document.getElementById("position");
+            document.addEventListener("click", function(e) {
+                page_coord.innerHTML = e.pageX + " " + e.pageY;
+            });
+            
+        </script>
+        <p> Done</p>
+    </body>
+</html>

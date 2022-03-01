@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Earth poles</title>
+    </head>
+    <body>
+        <h2>Earth Poles Viewer and more!</h2>
+        <img id="myImage" src="images/north.svg"><br>
+        <input type="button" value="North Pole" id="north">
+        <input type="button" value="South Pole" id="south">
+        <img id="wi" src="images/resize_wi.jpg"><br>
+        <input type="button" value="Wisconsin" id="WI">
+        <input type="button" value="Dogs" id="DOG">
+        
+        <script>
+            function showWI() {
+                document
+                    .getElementById("wi")
+                    .src = "images/resize_wi.jpg";
+            }
+            function showDog() {
+                document
+                    .getElementById("wi")
+                    .src = "images/dogs_resize.png";
+            }
+            function showNorth() {
+                document
+                    .getElementById("myImage")
+                    .src = "images/north.svg";
+            }
+            function showSouth() {
+                document
+                    .getElementById("myImage")
+                    .src = "images/south.svg";
+            }
+            
+            document
+                .getElementById("north")
+                .addEventListener("click", showNorth);
+            
+            document
+                .getElementById("south")
+                .addEventListener("click", showSouth);
+            
+            document
+                .getElementById("WI")
+                .addEventListener("click", showWI);
+            
+            document
+                .getElementById("DOG")
+                .addEventListener("click", showDog);
+        </script>
+    <p> Done</p>
+    </body>
+</html>
+
