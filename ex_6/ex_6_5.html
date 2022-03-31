@@ -1,0 +1,60 @@
+<html>
+   <head>
+      <title>Ex- 6-5:UI</title>
+       <style>
+           #tin{
+               float: left;
+               width: 200px;
+               height: 200px;
+           }
+           #moon {
+               float: right;
+               width: 300px;
+               height: 300px;
+           }
+            #food {
+               float: left;
+               width: 200px;
+               height: 200px;
+           }
+            #belly {
+               float: right;
+               width: 350px;
+               height: 350px;
+           }
+                 </style>
+    </head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+      <script>
+          
+
+          $(function(){
+              $("#tin").draggable();
+              $("#moon").droppable();
+            });
+            
+          $(function(){
+              $("#food").draggable();
+              $("#belly").droppable();
+            });
+          
+
+      </script>
+
+	
+   <body>
+       <h1> Tintin goes to moon and Food goes in my belly.</h1>
+       <div>
+           <img id="tin" src="img/tintin-milou.jpg" width="200px" height="200px"> 
+           <img id= "moon" src="img/moon.jpg" >
+           <img id= "food" src="img/5574.png" width="200px" height="200px">
+           <img id= "belly" src="img/png-clipart-animation-youtube-stomach-full-stomach-s-child-face.png" >
+       </div>
+       
+
+   </body>
+    <p>Done</p>
+</html>
