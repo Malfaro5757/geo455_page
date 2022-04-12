@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nearest Point</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!-- Load Leaflet from CDN -->
+       <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+       <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+       
+    <!-- Load TurfJS from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
+    
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+        html, body, #map {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+    
+// Bounds   long/lat  - feel free to change
+var bounds = [-92.7837882653202 , 46.73634924990495, -87.03147882105938 , 42.496983542765705];
+    
+// Initialize map
+var mymap = L.map("map").fitBounds([[bounds[1], bounds[0]], [bounds[3], bounds[2]]]);
+        
+L.tileLayer(
+    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
+    {attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'}
+).addTo(mymap);
+
+//my own stuff
+var point1 = turf.point([-89.81328348429615 ,43.970330935457994]);
+var point2 = turf.point([-91.23134144962468, 43.81750605927112]);
+L.geoJSON(point1).addTo(mymap);
+L.geoJSON(point2).addTo(mymap);
+
+var midpoint = turf.midpoint(point1, point2);
+L.geoJSON(midpoint).addTo(mymap);        
+
+// the markers are the same coordinates for the two points and between points, its just showing some type of text
+var marker =
+    L.marker ([43.81660129282059, -91.23060328354482],)
+    .bindPopup("University of Wisconsin- La Crosse")
+    .addTo(mymap)
+    .openPopup();
+var marker =
+    L.marker ([43.97, -89.813],)
+    .bindPopup("This marker is placed in my hometown!")
+    .addTo(mymap)
+    .openPopup();        
+        
+    </script>
+</body>
+</html>
