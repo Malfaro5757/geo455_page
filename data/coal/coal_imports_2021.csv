@@ -1,0 +1,221 @@
+Import quantity from total world,,,,
+"https://www.eia.gov/coal/data/browser/#/topic/39?agg=2,1,0&rank=ok&linechart=COAL.IMPORT_QTY.TOT-TOT-TOT.A&columnchart=COAL.IMPORT_QTY.TOT-TOT-TOT.A&map=COAL.EXPORT_QTY.TOT-TOT-TOT.A&freq=A&start=2020&end=2021&ctype=map&ltype=pin&rtype=s&pin=&rse=0&maptype=0",,,,
+Tue Apr 26 2022 14:52:18 GMT-0500 (Central Daylight Time),,,,
+Source: U.S. Energy Information Administration,,,,
+description,units,,,2021
+Import quantity from total world,short tons,,,
+Total world,,,,
+Total world : all coal,short tons,,,5389687
+Total world : steam coal,short tons,,,4548096
+Total world : metallurgical,short tons,,,841591
+Total world : coke,short tons,,,117110
+Argentina,,,,
+Argentina : all coal,short tons,,,--
+Argentina : steam coal,short tons,,,--
+Aruba,,,,
+Aruba : all coal,short tons,,,--
+Aruba : steam coal,short tons,,,--
+Australia,,,,
+Australia : all coal,short tons,,,--
+Australia : steam coal,short tons,,,--
+Australia : metallurgical,short tons,,,--
+Australia : coke,short tons,,,--
+Austria,,,,
+Austria : all coal,short tons,,,--
+Austria : steam coal,short tons,,,--
+Austria : coke,short tons,,,--
+Bahamas,,,,
+Bahamas : all coal,short tons,,,--
+Bahamas : steam coal,short tons,,,--
+Belgium,,,,
+Belgium : all coal,short tons,,,--
+Belgium : steam coal,short tons,,,--
+Belgium : coke,short tons,,,--
+Brazil,,,,
+Brazil : all coal,short tons,,,--
+Brazil : steam coal,short tons,,,--
+Brazil : coke,short tons,,,--
+British Virgin Islands,,,,
+British Virgin Islands : all coal,short tons,,,--
+British Virgin Islands : steam coal,short tons,,,--
+Canada,,,,
+Canada : all coal,short tons,,,1035571
+Canada : steam coal,short tons,,,195210
+Canada : metallurgical,short tons,,,840361
+Canada : coke,short tons,,,56838
+Chile,,,,
+Chile : all coal,short tons,,,--
+Chile : steam coal,short tons,,,--
+Chile : coke,short tons,,,--
+China,,,,
+China : all coal,short tons,,,116743
+China : steam coal,short tons,,,116743
+China : metallurgical,short tons,,,--
+China : coke,short tons,,,1233
+Colombia,,,,
+Colombia : all coal,short tons,,,3366886
+Colombia : steam coal,short tons,,,3366886
+Colombia : metallurgical,short tons,,,--
+Colombia : coke,short tons,,,--
+Czech Republic,,,,
+Czech Republic : coke,short tons,,,38592
+Dominican Republic,,,,
+Dominican Republic : all coal,short tons,,,--
+Dominican Republic : steam coal,short tons,,,--
+Ecuador,,,,
+Ecuador : all coal,short tons,,,--
+Ecuador : steam coal,short tons,,,--
+Egypt,,,,
+Egypt : all coal,short tons,,,--
+Egypt : steam coal,short tons,,,--
+Egypt : coke,short tons,,,--
+France,,,,
+France : all coal,short tons,,,--
+France : steam coal,short tons,,,--
+France : coke,short tons,,,--
+"Germany, Federal Republic Of",,,,
+"Germany, Federal Republic Of : all coal",short tons,,,1326
+"Germany, Federal Republic Of : steam coal",short tons,,,96
+"Germany, Federal Republic Of : metallurgical",short tons,,,1230
+"Germany, Federal Republic Of : coke",short tons,,,316
+Greece,,,,
+Greece : all coal,short tons,,,--
+Greece : steam coal,short tons,,,--
+Hong Kong,,,,
+Hong Kong : all coal,short tons,,,--
+Hong Kong : steam coal,short tons,,,--
+Hong Kong : coke,short tons,,,102
+India,,,,
+India : all coal,short tons,,,--
+India : steam coal,short tons,,,--
+India : coke,short tons,,,132
+Indonesia,,,,
+Indonesia : all coal,short tons,,,494168
+Indonesia : steam coal,short tons,,,494168
+Indonesia : metallurgical,short tons,,,--
+Indonesia : coke,short tons,,,--
+Israel,,,,
+Israel : all coal,short tons,,,--
+Israel : steam coal,short tons,,,--
+Italy,,,,
+Italy : all coal,short tons,,,--
+Italy : steam coal,short tons,,,--
+Italy : coke,short tons,,,375
+Japan,,,,
+Japan : all coal,short tons,,,--
+Japan : steam coal,short tons,,,--
+Japan : coke,short tons,,,1378
+Latvia,,,,
+Latvia : all coal,short tons,,,--
+Latvia : steam coal,short tons,,,--
+Libya,,,,
+Libya : coke,short tons,,,--
+Luxembourg,,,,
+Luxembourg : all coal,short tons,,,--
+Luxembourg : steam coal,short tons,,,--
+Malta,,,,
+Malta : coke,short tons,,,--
+Mexico,,,,
+Mexico : all coal,short tons,,,33
+Mexico : steam coal,short tons,,,33
+Mexico : metallurgical,short tons,,,--
+Mexico : coke,short tons,,,--
+Mongolia,,,,
+Mongolia : all coal,short tons,,,--
+Mongolia : metallurgical,short tons,,,--
+Mozambique,,,,
+Mozambique : coke,short tons,,,62
+Netherlands,,,,
+Netherlands : all coal,short tons,,,--
+Netherlands : steam coal,short tons,,,--
+Netherlands : coke,short tons,,,28
+New Zealand,,,,
+New Zealand : all coal,short tons,,,--
+New Zealand : steam coal,short tons,,,--
+New Zealand : metallurgical,short tons,,,--
+New Zealand : coke,short tons,,,--
+Norway,,,,
+Norway : all coal,short tons,,,--
+Norway : steam coal,short tons,,,--
+Panama,,,,
+Panama : coke,short tons,,,--
+Paraguay,,,,
+Paraguay : all coal,short tons,,,--
+Paraguay : steam coal,short tons,,,--
+Peru,,,,
+Peru : all coal,short tons,,,7
+Peru : steam coal,short tons,,,7
+Philippines,,,,
+Philippines : all coal,short tons,,,--
+Philippines : steam coal,short tons,,,--
+Philippines : coke,short tons,,,--
+Poland,,,,
+Poland : all coal,short tons,,,--
+Poland : steam coal,short tons,,,--
+Poland : metallurgical,short tons,,,--
+Poland : coke,short tons,,,--
+Russia,,,,
+Russia : all coal,short tons,,,338550
+Russia : steam coal,short tons,,,338550
+Russia : metallurgical,short tons,,,--
+Russia : coke,short tons,,,--
+Saudi Arabia,,,,
+Saudi Arabia : coke,short tons,,,132
+Somalia,,,,
+Somalia : all coal,short tons,,,--
+Somalia : steam coal,short tons,,,--
+South Africa,,,,
+South Africa : all coal,short tons,,,36376
+South Africa : steam coal,short tons,,,36376
+South Africa : coke,short tons,,,17896
+South Korea (Republic Of Korea),,,,
+South Korea (Republic Of Korea) : all coal,short tons,,,--
+South Korea (Republic Of Korea) : steam coal,short tons,,,--
+Spain,,,,
+Spain : all coal,short tons,,,--
+Spain : steam coal,short tons,,,--
+Spain : coke,short tons,,,--
+Sweden,,,,
+Sweden : all coal,short tons,,,--
+Sweden : steam coal,short tons,,,--
+Switzerland,,,,
+Switzerland : all coal,short tons,,,--
+Switzerland : steam coal,short tons,,,--
+Switzerland : coke,short tons,,,--
+Syria (Syrian Arab Republic),,,,
+Syria (Syrian Arab Republic) : all coal,short tons,,,--
+Syria (Syrian Arab Republic) : steam coal,short tons,,,--
+Syria (Syrian Arab Republic) : coke,short tons,,,--
+Taiwan,,,,
+Taiwan : all coal,short tons,,,--
+Taiwan : steam coal,short tons,,,--
+Thailand,,,,
+Thailand : coke,short tons,,,--
+Trinidad And Tobago,,,,
+Trinidad And Tobago : all coal,short tons,,,--
+Trinidad And Tobago : steam coal,short tons,,,--
+Turkey,,,,
+Turkey : all coal,short tons,,,--
+Turkey : steam coal,short tons,,,--
+Turkey : coke,short tons,,,--
+Ukraine,,,,
+Ukraine : all coal,short tons,,,--
+Ukraine : steam coal,short tons,,,--
+Ukraine : metallurgical,short tons,,,--
+Ukraine : coke,short tons,,,--
+United Arab Emirates,,,,
+United Arab Emirates : all coal,short tons,,,--
+United Arab Emirates : steam coal,short tons,,,--
+United Arab Emirates : coke,short tons,,,--
+United Kingdom,,,,
+United Kingdom : all coal,short tons,,,27
+United Kingdom : steam coal,short tons,,,27
+United Kingdom : coke,short tons,,,26
+Venezuela,,,,
+Venezuela : all coal,short tons,,,--
+Venezuela : steam coal,short tons,,,--
+Venezuela : metallurgical,short tons,,,--
+Venezuela : coke,short tons,,,--
+Vietnam,,,,
+Vietnam : all coal,short tons,,,--
+Vietnam : steam coal,short tons,,,--
