@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>geo455_lab5</title>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+        <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+        <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-minimap/v1.0.0/Control.MiniMap.js'></script>
+        
+        <script src="data/coal/coal_exports_data.js"></script>
+        <script src="data/coal/coal_imports_data.js"></script>
+       
+        <script src="data/natural_gas/natural_gas_exports_data.js"></script>
+        <script src="data/natural_gas/natural_gas_imports_data.js"></script>
+       
+        <script src="data/oil/oil_exports_data.js"></script>
+        <script src="data/oil/oil_imports_data.js"></script>
+       
+       
+       <script src="migration_source.js"></script>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: "whitesmoke";
+                font-family: "Noto Sans", sans-serif;
+                color: #3d3d3d;
+            }
+            #title {
+                position: fixed;
+                margin-top: 0;
+                top: 10px;
+                left: 50px;
+                font-size: 2em;
+                font-family: "Lora", serif;
+                letter-spacing: .04em;
+                padding: 10px 15px;
+                background-color: rgba(110, 162, 180);
+                border: 1px solid black;
+                border-radius: 3px;
+                z-index: 800;
+            }
+            #map {
+                position:absolute;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+            }
+            #description {
+                position: fixed;
+                bottom:60px;
+                right: 20px;
+                width: 280px;
+                padding: 0px 15px;
+                background-color: rgba(136, 171, 131);
+                border: 1px solid black;
+                border-radius: 3px;
+                z-index: 800;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="title">Exports and Imports of Fossil Fuels to and from the United States, 2021</h1>
+        <div id="description">
+            <h3>What is this map about?</h3>
+            <p> The following flow map shows imports and exports of fossil fuels, coal, natural gas, and oil along with there respective amount and there final destination. </p>
+            
+            <p>Map authored by Marcos Alfaro</p>
+        </div>
+        <div id="map"></div>
+        
+        <script src="final_1.js"></script>
+        
+    </body>
+</html>
